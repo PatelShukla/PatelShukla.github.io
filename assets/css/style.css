@@ -4067,9 +4067,19 @@ input[type=radio] {
 .cta-banner .cta__icon i {
   line-height: 1;
 }
+.whatsapp-btn-mobile {
+  display: none;
+}
 
 /* Mobile Phones & tablets and Small Screens */
 @media (min-width: 320px) and (max-width: 992px) {
+  .whatsapp-btn-mobile {
+    display: inline-block; position: fixed; bottom: 25px; right: 25px;
+  }
+  .hide-in-mobile {
+    display: none;
+  }
+  
   .cta-banner-wrapper {
     margin-top: 30px;
     -webkit-box-pack: start !important;
